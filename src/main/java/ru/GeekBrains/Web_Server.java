@@ -26,7 +26,11 @@ public class Web_Server {
                 output.println("Content-Type: text/html; charset=utf-8");
                 output.println();
                 output.println("<h1>Привет от сервера!</h1>");
+                output.println("<a href = https://gb.ru/lessons/402220> Запись урока </a><br>");
+                output.println();
+                output.println("<a href = https://w.forfun.com/fetch/b2/b25665013f6f4500a51470dbc3b69f65.jpeg> Картинка </a><br>");
                 output.flush();
+
 
                 input.close();
                 output.close();
